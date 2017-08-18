@@ -1,11 +1,13 @@
 name 'base_cve'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
+maintainer 'Galen Emery'
+maintainer_email 'galen@galenemery.com'
+license 'Apache 2.0'
 description 'Installs/Configures base_cve'
 long_description 'Installs/Configures base_cve'
 version '0.1.0'
-chef_version '>= 12.1' if respond_to?(:chef_version)
+chef_version '>= 12.5.1' if respond_to?(:chef_version)
+
+depends 'audit'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
