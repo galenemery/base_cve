@@ -1,7 +1,0 @@
-server = "galen-automate"
-api_protocol = "https"
-user = "admin"
-enterprise = "cis"
-organization = "cve"
-git_port = "8989"
-pipeline = "master"
